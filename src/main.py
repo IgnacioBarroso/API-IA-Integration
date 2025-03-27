@@ -1,6 +1,5 @@
 from fastapi import FastAPI, HTTPException, Header, Depends
 from fastapi.middleware.cors import CORSMiddleware
-import ollama
 from dotenv import load_dotenv
 import os
 import openai
